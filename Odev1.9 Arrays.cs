@@ -1,6 +1,6 @@
 using System;
 
-namespace Series
+namespace Arrays
 {
     class Program
     {
