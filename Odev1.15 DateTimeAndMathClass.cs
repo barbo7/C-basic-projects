@@ -36,6 +36,9 @@ namespace DateTimeAndMathClass
             Console.WriteLine(DateTime.Now.ToString("MM"));     //Kaçıncı ay'da olduğumuzu verir. **10
             Console.WriteLine(DateTime.Now.ToString("MMM"));    //Ayın kısaltılmış adını verir. **eki
             Console.WriteLine(DateTime.Now.ToString("MMMM"));   //Ayın tam adını verir. **ekim.
+            
+            Console.WriteLine(DateTime.Now.ToString("HH:mm:ss);  //24 saat üzerinden şuanki zamaı verir.
+            Console.WriteLine(DateTime.Now.ToString("hh:mm:ss);  //12 saat üzerinden şuanki zamanı verir.                                       
 
             Console.WriteLine("*****");
             //Math Framework
