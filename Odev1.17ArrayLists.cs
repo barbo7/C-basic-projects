@@ -24,7 +24,7 @@ namespace ArrayLists
             Console.WriteLine("***Add Range***");
             string[] renkler = { "sarı", "mavi", "kırmızı", "mor", "lila" };
 
-            //clear liste içindeki verileri temizler.
+            //Clear liste içindeki verileri temizler.
             list.Clear();
 
             List<int> sayılar = new List<int>() { 1, 3, 8, 17, 60, 71, 80 };
@@ -45,7 +45,19 @@ namespace ArrayLists
             list.Reverse();
             foreach (var i in list)
                 Console.WriteLine(i);
+            //Insert(kaçıncı sıra,eklenecek veri);
+            list.Insert(2,31);
+            
+            //Capacity listenin kapasitesini öğrenmek için kullandığımız fonksiyon
+            Console.WriteLine(list.Capacity.ToString());
+            
+            //Count dizinin içerisindeki eleman sayısını öğrenmek için kullanılır.
+            Console.WriteLine(list.Count());
 
+            //Remove ve RemoveAt
+            list.Remove(31); //
+            
+            
             Console.ReadKey();
         }
     }
