@@ -19,6 +19,11 @@ namespace GenericList
             sayiList.Add(81);
             sayiList.Add(3310);
 
+            //Toplu Giriş için=
+            List<int> notlar = new();
+            notlar.AddRange(new List<int> {0,13,18.54.96});
+            //
+
             List<string> renkler = new List<string>();
 
             renkler.Add("mavi");
